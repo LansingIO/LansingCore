@@ -2,6 +2,15 @@ package io.lansing.core.lang;
 
 import java.util.logging.Level;
 
+/**
+ * Enum: Message
+ * 
+ * 
+ * @author Lansing Nye-Madden
+ * @changed 12/04/2014 11:02 AM EST
+ *
+ */
+
 public enum Message {
 	    PRE_ENABLE(Level.INFO, "Starting Initalization Process..."),
 	    POST_ENABLE(Level.INFO, "Initalization Process Completed!"),

@@ -7,6 +7,14 @@ import io.lansing.core.console.ConsoleModule;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Class: LansingCore
+ * This class allows for LansingCore to communicate with the Bukkit server.
+ * 
+ * @version v1.0.0
+ * @author Lansing Nye-Madden
+ *
+ */
 public class LansingCore extends JavaPlugin {
 	
 	public CommandModule COMMAND = new CommandModule(this);

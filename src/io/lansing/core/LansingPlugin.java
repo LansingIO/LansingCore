@@ -1,9 +1,18 @@
 package io.lansing.core;
 
-import org.bukkit.plugin.java.JavaPlugin;
-
 import io.lansing.core.command.CommandModule;
 import io.lansing.core.console.ConsoleModule;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+/**
+ * Class: LansingPlugin
+ * This class serves as a template for LansingPlugins to be created using.
+ * 
+ * @version v1.0.0
+ * @author Lansing Nye-Madden
+ *
+ */
 
 public class LansingPlugin extends JavaPlugin {
 	

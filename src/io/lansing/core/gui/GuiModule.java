@@ -3,6 +3,16 @@ package io.lansing.core.gui;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Class: GuiModule
+ * This is the GuiModule. It contains the functions
+ * needed to use the GuiMenus, and GuiOptions.
+ * 
+ * @author Lansing Nye-Madden
+ * @changed 12/04/2014 11:02 AM EST
+ *
+ */
+
 public class GuiModule {
 	
 	public GuiModule() {

@@ -2,6 +2,16 @@ package io.lansing.core.command;
 
 import org.bukkit.plugin.Plugin;
 
+/**
+ * Class: CommandModule
+ * This does nothing at the current time, but it is planned that
+ * it will handle the LansingPlugin help menu.
+ * 
+ * @version v1.0.0
+ * @author Lansing Nye-Madden
+ *
+ */
+
 public class CommandModule {
 	
 	@SuppressWarnings("unused")

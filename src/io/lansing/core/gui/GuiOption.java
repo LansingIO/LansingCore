@@ -6,6 +6,17 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+/**
+ * Class: GuiOption
+ * This is a GuiOption object. As I do not want to extend
+ * the ItemStack class, this contains an ItemStack object
+ * that is constructed by the toItemStack() method.
+ * 
+ * @author Lansing Nye-Madden
+ * @changed 12/04/2014 11:02 AM EST
+ *
+ */
+
 public class GuiOption {
 	
 	private ItemStack item;

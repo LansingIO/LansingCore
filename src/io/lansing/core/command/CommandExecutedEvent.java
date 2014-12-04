@@ -4,6 +4,15 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
+/**
+ * Class: CommandExecutedEvent
+ * This event is fired by the CommandModule when a command is run by player or console.
+ * 
+ * @version v1.0.0
+ * @author Lansing Nye-Madden
+ *
+ */
+
 public final class CommandExecutedEvent extends Event {
     private static final HandlerList handlers = new HandlerList();
     

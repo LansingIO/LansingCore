@@ -6,6 +6,16 @@ import java.util.logging.Level;
 
 import org.bukkit.plugin.Plugin;
 
+/**
+ * Class: ConsoleModule
+ * This class is used in order to log messages to the console. It
+ * also handles sending of default messages stored in io.lansing.core.lang.Message
+ * 
+ * @version v1.0.0
+ * @author Lansing Nye-Madden
+ *
+ */
+
 public class ConsoleModule {
 	
 	private Plugin pl;
