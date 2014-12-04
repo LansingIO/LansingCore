@@ -20,7 +20,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 public class GuiOption {
 	
 	private ItemStack item;
-	private int size;
+	private int amount;
 	private ItemMeta meta;
 	private String title;
 	private ArrayList<String> subtext;
@@ -33,6 +33,7 @@ public class GuiOption {
 	}
 	
 	public ItemStack toItemStack() {
+		this.item.setAmount(amount);
 		this.meta.setDisplayName(this.title);
 		this.meta.setLore(this.subtext);
 		this.item.setItemMeta(this.meta);
@@ -61,6 +62,14 @@ public class GuiOption {
 	
 	public void removeSubtext(String str) {
 		this.subtext.remove(str);
+	}
+	
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+	
+	public int getAmount() {
+		return amount;
 	}
 	
 }
