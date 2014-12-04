@@ -1,11 +1,6 @@
 package io.lansing.core;
 
 import io.lansing.core.command.CommandListener;
-import io.lansing.core.command.CommandModule;
-import io.lansing.core.console.ConsoleModule;
-
-import org.bukkit.Bukkit;
-import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * Class: LansingCore
@@ -15,15 +10,12 @@ import org.bukkit.plugin.java.JavaPlugin;
  * @author Lansing Nye-Madden
  *
  */
-public class LansingCore extends JavaPlugin {
-	
-	public CommandModule COMMAND = new CommandModule(this);
-	public ConsoleModule CONSOLE = new ConsoleModule(this);
+public class LansingCore extends LansingPlugin {
 	
 	@Override
 	public void onEnable() {
 		CONSOLE.logInfo("Initializing Plugin...");
-		Bukkit.getPluginManager().registerEvents(new CommandListener(), this);
+		UTILITY.RegisterEvent(new CommandListener(), this);
 		CONSOLE.logInfo("Initializing Complete...");
 	}
 	
