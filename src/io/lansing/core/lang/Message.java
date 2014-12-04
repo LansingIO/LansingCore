@@ -4,7 +4,10 @@ import java.util.logging.Level;
 
 /**
  * Enum: Message
- * 
+ * This enum contains a list of common message that
+ * are frequently displayed by the plugin. This is
+ * just so that my LansingCore plugins are uniform
+ * and are "Overly Simplistic" to use.
  * 
  * @author Lansing Nye-Madden
  * @changed 12/04/2014 11:02 AM EST
