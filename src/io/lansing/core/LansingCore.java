@@ -31,8 +31,4 @@ public class LansingCore extends LansingPlugin {
 		CONSOLE.logInfo("Loading Complete...");
 	}
 	
-	public void LoadModules() {
-		
-	}
-	
 }
