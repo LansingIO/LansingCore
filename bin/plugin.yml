@@ -1,0 +1,3 @@
+name: LansingCore
+main: io.lansing.core.LansingCore
+version: 1.0.1
