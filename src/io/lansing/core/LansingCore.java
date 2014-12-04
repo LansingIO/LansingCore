@@ -6,7 +6,7 @@ import io.lansing.core.command.CommandListener;
  * Class: LansingCore
  * This class allows for LansingCore to communicate with the Bukkit server.
  * 
- * @version v1.0.0
+ * @version v1.0.0 alpha
  * @author Lansing Nye-Madden
  *
  */

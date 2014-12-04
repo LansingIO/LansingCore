@@ -7,7 +7,6 @@ import org.bukkit.plugin.Plugin;
  * Class: UtilityModule
  * The purpose of this module is to provide methods for use of simplifying bukkit.
  * 
- * @version v1.0.0
  * @author Lansing Nye-Madden
  *
  */

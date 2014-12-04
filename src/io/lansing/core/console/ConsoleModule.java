@@ -11,7 +11,6 @@ import org.bukkit.plugin.Plugin;
  * This class is used in order to log messages to the console. It
  * also handles sending of default messages stored in io.lansing.core.lang.Message
  * 
- * @version v1.0.0
  * @author Lansing Nye-Madden
  *
  */

@@ -11,7 +11,6 @@ import org.bukkit.event.server.ServerCommandEvent;
  * Class: CommandListener
  * This listener listens for commands to be executed, and when they are executed, it fires the CommandExecutedEvent
  * 
- * @version v1.0.0
  * @author Lansing Nye-Madden
  *
  */

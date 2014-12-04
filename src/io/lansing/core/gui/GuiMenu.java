@@ -12,7 +12,6 @@ import org.bukkit.inventory.ItemStack;
  * that is modified by the publicly exposed methods.
  * 
  * @author Lansing Nye-Madden
- * @changed 12/04/2014 11:02 AM EST
  *
  */
 

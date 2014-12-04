@@ -10,7 +10,6 @@ import java.util.logging.Level;
  * and are "Overly Simplistic" to use.
  * 
  * @author Lansing Nye-Madden
- * @changed 12/04/2014 11:02 AM EST
  *
  */
 

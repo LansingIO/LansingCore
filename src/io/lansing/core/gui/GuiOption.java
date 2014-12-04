@@ -13,7 +13,6 @@ import org.bukkit.inventory.meta.ItemMeta;
  * that is constructed by the toItemStack() method.
  * 
  * @author Lansing Nye-Madden
- * @changed 12/04/2014 11:02 AM EST
  *
  */
 
