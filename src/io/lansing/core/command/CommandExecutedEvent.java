@@ -13,6 +13,7 @@ import org.bukkit.event.HandlerList;
  */
 
 public final class CommandExecutedEvent extends Event {
+	
     private static final HandlerList handlers = new HandlerList();
     
     private CommandOrigin origin;
