@@ -37,8 +37,8 @@ public final class CommandExecutedEvent extends Event {
         return handlers;
     }
     
-    public void setHandled(boolean handled) {
-        this.handled = handled;
+    public void handle() {
+        this.handled = true;
     }
 
 	public boolean isHandled() {
