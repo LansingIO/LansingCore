@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * Class: LansingPlugin
- * This class serves as a template for LansingPlugins to be created using.
+ * This class should be extended upon for creation of a plugin.
  * 
  * @author Lansing Nye-Madden
  *
