@@ -6,7 +6,7 @@ import org.bukkit.event.HandlerList;
 
 /**
  * Class: CommandExecutedEvent
- * This event is fired by the CommandModule when a command is run by player or console.
+ * This event is fired by the CommandModule when a command is run by a player or console.
  * 
  * @author Lansing Nye-Madden
  *
