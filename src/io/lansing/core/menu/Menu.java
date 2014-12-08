@@ -15,11 +15,11 @@ import org.bukkit.inventory.ItemStack;
  *
  */
 
-public class MenuInventory {
+public class Menu {
 	
 	public Inventory menu;
 	
-	public MenuInventory(String title, int size) {
+	public Menu(String title, int size) {
 		this.menu = Bukkit.createInventory(null, size, title);
 	}
 	

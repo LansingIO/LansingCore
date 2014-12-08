@@ -20,8 +20,8 @@ public class MenuModule {
 		
 	}
 	
-	public MenuInventory createMenu(String title, int size) {
-		return new MenuInventory(title, size);
+	public Menu createMenu(String title, int size) {
+		return new Menu(title, size);
 	}
 	
 	public MenuOption createOption(ItemStack item) {
