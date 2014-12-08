@@ -2,7 +2,7 @@ package io.lansing.core;
 
 import io.lansing.core.command.CommandModule;
 import io.lansing.core.console.ConsoleModule;
-import io.lansing.core.gui.GuiModule;
+import io.lansing.core.menu.MenuModule;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -19,7 +19,7 @@ public class LansingPlugin extends JavaPlugin {
 	public CommandModule COMMAND = new CommandModule(this);
 	public ConsoleModule CONSOLE = new ConsoleModule(this);
 	public UtilityModule UTILITY = new UtilityModule(this);
-	public GuiModule GUI = new GuiModule(this);
+	public MenuModule MENU = new MenuModule(this);
 	
 	@Override
 	public void onEnable() {

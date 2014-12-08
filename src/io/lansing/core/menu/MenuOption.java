@@ -1,4 +1,4 @@
-package io.lansing.core.gui;
+package io.lansing.core.menu;
 
 import java.util.ArrayList;
 
@@ -16,7 +16,7 @@ import org.bukkit.inventory.meta.ItemMeta;
  *
  */
 
-public class GuiOption {
+public class MenuOption {
 	
 	private ItemStack item;
 	private int amount;
@@ -35,7 +35,7 @@ public class GuiOption {
 	 * @return                  a GuiOption object of the specified material type.
 	 * @see                     GuiOption
 	 */
-	public GuiOption(Material material) {
+	public MenuOption(Material material) {
 		this.item = new ItemStack(material);
 		this.meta = this.item.getItemMeta();
 		this.title = this.meta.getDisplayName();

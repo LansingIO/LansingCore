@@ -1,4 +1,4 @@
-package io.lansing.core.gui;
+package io.lansing.core.menu;
 
 import io.lansing.core.LansingPlugin;
 
@@ -14,18 +14,18 @@ import org.bukkit.inventory.ItemStack;
  *
  */
 
-public class GuiModule {
+public class MenuModule {
 	
-	public GuiModule(LansingPlugin lp) {
+	public MenuModule(LansingPlugin lp) {
 		
 	}
 	
-	public GuiMenu createMenu(String title, int size) {
-		return new GuiMenu(title, size);
+	public MenuInventory createMenu(String title, int size) {
+		return new MenuInventory(title, size);
 	}
 	
-	public GuiOption createOption(ItemStack item) {
-		return new GuiOption(Material.ANVIL);
+	public MenuOption createOption(ItemStack item) {
+		return new MenuOption(Material.ANVIL);
 	}
 	
 }

@@ -1,4 +1,4 @@
-package io.lansing.core.gui;
+package io.lansing.core.menu;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -15,11 +15,11 @@ import org.bukkit.inventory.ItemStack;
  *
  */
 
-public class GuiMenu {
+public class MenuInventory {
 	
 	public Inventory menu;
 	
-	public GuiMenu(String title, int size) {
+	public MenuInventory(String title, int size) {
 		this.menu = Bukkit.createInventory(null, size, title);
 	}
 	
