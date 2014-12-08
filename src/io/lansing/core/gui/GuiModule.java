@@ -1,5 +1,7 @@
 package io.lansing.core.gui;
 
+import io.lansing.core.LansingPlugin;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -14,7 +16,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class GuiModule {
 	
-	public GuiModule() {
+	public GuiModule(LansingPlugin lp) {
 		
 	}
 	
