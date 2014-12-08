@@ -1,5 +1,6 @@
 package io.lansing.core.console;
 
+import io.lansing.core.LansingPlugin;
 import io.lansing.core.lang.Message;
 
 import java.util.logging.Level;
@@ -17,9 +18,9 @@ import org.bukkit.plugin.Plugin;
 
 public class ConsoleModule {
 	
-	private Plugin pl;
+	private LansingPlugin pl;
 	
-	public ConsoleModule(Plugin pl) {
+	public ConsoleModule(LansingPlugin pl) {
 		this.pl = pl;
 	}
 	

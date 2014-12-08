@@ -1,6 +1,6 @@
 package io.lansing.core.command;
 
-import org.bukkit.plugin.Plugin;
+import io.lansing.core.LansingPlugin;
 
 /**
  * Class: CommandModule
@@ -14,9 +14,9 @@ import org.bukkit.plugin.Plugin;
 public class CommandModule {
 	
 	@SuppressWarnings("unused")
-	private Plugin plugin;
+	private LansingPlugin plugin;
 
-	public CommandModule(Plugin plugin) {
+	public CommandModule(LansingPlugin plugin) {
 		this.plugin = plugin;
 	}
 	
