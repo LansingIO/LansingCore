@@ -25,7 +25,7 @@ public class MenuModule {
 	}
 	
 	public MenuOption createOption(ItemStack item) {
-		return new MenuOption(Material.ANVIL);
+		return new MenuOption(item.getType());
 	}
 	
 }
