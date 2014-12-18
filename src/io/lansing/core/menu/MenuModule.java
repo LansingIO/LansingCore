@@ -2,7 +2,6 @@ package io.lansing.core.menu;
 
 import io.lansing.core.LansingPlugin;
 
-import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 /**

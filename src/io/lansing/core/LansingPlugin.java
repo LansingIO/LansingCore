@@ -31,6 +31,11 @@ public class LansingPlugin extends JavaPlugin {
 		this.MENULIST.add(menu);
 	}
 	
+	public boolean isMenu(Menu menu) {
+		for (Menu m : MENULIST) if (m.equals(menu)) return true;
+		return false;
+	}
+	
 	@Override
 	public void onEnable() {
 		CONSOLE.logInfo("Initializing Plugin...");

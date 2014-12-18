@@ -5,8 +5,6 @@ import io.lansing.core.lang.Message;
 
 import java.util.logging.Level;
 
-import org.bukkit.plugin.Plugin;
-
 /**
  * Class: ConsoleModule
  * This class is used in order to log messages to the console. It

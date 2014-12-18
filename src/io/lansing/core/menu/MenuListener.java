@@ -1,8 +1,7 @@
 package io.lansing.core.menu;
 
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
-import org.bukkit.event.Event;
+import io.lansing.core.LansingPlugin;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -17,12 +16,21 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 
 public class MenuListener implements Listener {
 	
+	public LansingPlugin lp;
+	
+	public MenuListener(LansingPlugin lp) {
+		this.lp = lp;
+	}
+	
 	@EventHandler
 	public void onInventoryClickedEvent(InventoryClickEvent e) {
-		if (!(e.getWhoClicked() instanceof Player)) return;
-		Player p = (Player) e.getWhoClicked();
-		Event event = new MenuClickEvent(p, e.getClickedInventory(), e.getClick(), e.getSlot(), e.getCurrentItem());
-		Bukkit.getServer().getPluginManager().callEvent(event);
+		if (lp.isMenu((Menu) e.getInventory())) {
+			
+		}
+	}
+	
+	public void onMenuClicked() {
+		
 	}
 	
 }
