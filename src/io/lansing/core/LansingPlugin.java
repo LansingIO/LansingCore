@@ -1,7 +1,11 @@
 package io.lansing.core;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import io.lansing.core.command.CommandModule;
 import io.lansing.core.console.ConsoleModule;
+import io.lansing.core.menu.Menu;
 import io.lansing.core.menu.MenuModule;
 
 import org.bukkit.plugin.java.JavaPlugin;
@@ -20,6 +24,12 @@ public class LansingPlugin extends JavaPlugin {
 	public ConsoleModule CONSOLE = new ConsoleModule(this);
 	public UtilityModule UTILITY = new UtilityModule(this);
 	public MenuModule MENU = new MenuModule(this);
+	
+	public List<Menu> MENULIST = new ArrayList<Menu>();
+	
+	public void registerMenu(Menu menu) {
+		this.MENULIST.add(menu);
+	}
 	
 	@Override
 	public void onEnable() {
