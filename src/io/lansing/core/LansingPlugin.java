@@ -25,17 +25,6 @@ public class LansingPlugin extends JavaPlugin {
 	public UtilityModule UTILITY = new UtilityModule(this);
 	public MenuModule MENU = new MenuModule(this);
 	
-	public List<Menu> MENULIST = new ArrayList<Menu>();
-	
-	public void registerMenu(Menu menu) {
-		this.MENULIST.add(menu);
-	}
-	
-	public boolean isMenu(Menu menu) {
-		for (Menu m : MENULIST) if (m.equals(menu)) return true;
-		return false;
-	}
-	
 	@Override
 	public void onEnable() {
 		CONSOLE.logInfo("Initializing Plugin...");
